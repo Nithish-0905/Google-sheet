@@ -51,3 +51,33 @@ span{
     margin-top: 10px;
     display: block;
 }
+@media (min-width:350px){
+    
+    .hero h3{
+        font-size: 1.3rem;
+    }
+
+    .hero h1{
+        font-size:1.5rem;
+    }
+    .hero p{
+        margin: 20px 0 80px;
+    }
+
+    form input{
+        padding:20px 20px;
+        height:30px;
+        width:250px;
+        font-size: 0.9rem;
+    }
+
+    form button{
+        background: #61b752;
+        border:0;
+        outline:0;
+        height: 40px;
+        width:50px;
+        cursor: pointer;
+    }
+    
+}
